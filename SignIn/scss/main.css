@@ -1,0 +1,130 @@
+body {
+  background-color: #222;
+}
+
+.signin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.signin form label {
+  color: #868686;
+}
+
+.signin form input {
+  background-color: transparent;
+  border-color: #555;
+}
+
+.signin form button {
+  width: 100%;
+  font-weight: 600;
+  color: #fff;
+  background: #8260e5;
+  /* Old browsers */
+  /* FF3.6-15 */
+  background: linear-gradient(135deg, #8260e5 0%, #346fc7 50%, #346fc7 51%, #346fc7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8260e5', endColorstr='#346fc7',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.signin form button:hover {
+  color: #fff;
+  background: #947ae2;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #947ae2 0%, #4f81c6 49%, #467dc4 51%, #497dc6 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#947ae2', endColorstr='#497dc6',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+.signin .info a {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 40px;
+}
+
+.signin .info a:hover {
+  color: #8260e5;
+}
+
+.signin .info ul {
+  list-style: none;
+  color: #868686;
+}
+
+.signin .info ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.signin .info ul li .line {
+  width: 80px;
+  height: 1px;
+  position: relative;
+  display: block;
+  background-color: #868686;
+  bottom: 5px;
+}
+
+.signin .info .btn-outline {
+  margin-left: 40px;
+  color: #8260e5;
+  border-color: #8260e5;
+  background-color: transparent;
+}
+
+.signin .footer {
+  padding: 20px 0;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.signin .footer p {
+  margin-bottom: 0;
+  padding-left: 40px;
+}
+
+.signin .footer a {
+  color: #ccc;
+}
+
+.signin .cover {
+  text-align: center;
+  background-image: url("../logo/login.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.signin .cover h1 {
+  color: #fff;
+  font-size: 55px;
+  position: absolute;
+  top: 40%;
+  font-weight: 400;
+}
+
+.signin .cover button {
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
+  position: relative;
+  top: 65%;
+}
+
+.signin .cover button:hover {
+  color: #8260e5;
+  border-color: #8260e5;
+}
+/*# sourceMappingURL=main.css.map */

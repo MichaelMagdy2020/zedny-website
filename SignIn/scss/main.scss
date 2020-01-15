@@ -1,0 +1,146 @@
+$firstcolor: #fff;
+$secondColor: #ccc;
+$thirdColor: #8260e5;
+$forthColor: #868686;
+$borderColor: #555;
+
+body {
+  background-color: #222;
+}
+.signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    label {
+      color: $forthColor;
+    }
+    input {
+      background-color: transparent;
+      border-color: $borderColor;
+    }
+    button {
+      width: 100%;
+      font-weight: 600;
+      color: $firstcolor;
+      background: #8260e5; /* Old browsers */
+      background: -moz-linear-gradient(
+        -45deg,
+        #8260e5 0%,
+        #346fc7 50%,
+        #346fc7 51%,
+        #346fc7 100%
+      ); /* FF3.6-15 */
+      background: -webkit-linear-gradient(
+        -45deg,
+        #8260e5 0%,
+        #346fc7 50%,
+        #346fc7 51%,
+        #346fc7 100%
+      );
+      background: linear-gradient(
+        135deg,
+        #8260e5 0%,
+        #346fc7 50%,
+        #346fc7 51%,
+        #346fc7 100%
+      );
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8260e5', endColorstr='#346fc7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+      &:hover {
+        color: $firstcolor;
+        background: #947ae2; /* Old browsers */
+        background: -moz-linear-gradient(
+          -45deg,
+          #947ae2 0%,
+          #4f81c6 49%,
+          #467dc4 51%,
+          #497dc6 100%
+        ); /* FF3.6-15 */
+        background: -webkit-linear-gradient(
+          -45deg,
+          #947ae2 0%,
+          #4f81c6 49%,
+          #467dc4 51%,
+          #497dc6 100%
+        ); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(
+          135deg,
+          #947ae2 0%,
+          #4f81c6 49%,
+          #467dc4 51%,
+          #497dc6 100%
+        ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#947ae2', endColorstr='#497dc6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+      }
+    }
+  }
+  .info {
+    a {
+      color: $secondColor;
+      font-size: 14px;
+      margin-left: 40px;
+      &:hover {
+        color: $thirdColor;
+      }
+    }
+    ul {
+      list-style: none;
+      color: $forthColor;
+      li {
+        display: inline-flex;
+        .line {
+          width: 80px;
+          height: 1px;
+          position: relative;
+          display: block;
+          background-color: $forthColor;
+          bottom: 5px;
+        }
+      }
+    }
+    .btn-outline {
+      margin-left: 40px;
+      color: $thirdColor;
+      border-color: $thirdColor;
+      background-color: transparent;
+    }
+  }
+  .footer {
+    padding: 20px 0;
+    color: $secondColor;
+    font-size: 14px;
+    p {
+      margin-bottom: 0;
+      padding-left: 40px;
+    }
+    a{
+        color: $secondColor;
+    }
+  }
+  .cover {
+      text-align: center;
+      background-image: url('../logo/login.jpg');
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+    h1 {
+      color: $firstcolor;
+      font-size: 55px;
+      position: absolute;
+      top: 40%;
+      font-weight: 400;
+    }
+    button{
+        color: $firstcolor;
+        border-color: $firstcolor;
+        background-color: transparent;
+        position: relative;
+        top: 65%;
+        &:hover{
+            color: $thirdColor;
+            border-color: $thirdColor;
+        }
+    }
+  }
+}

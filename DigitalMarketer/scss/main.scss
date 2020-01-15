@@ -1,0 +1,167 @@
+$firstcolor: #fff;
+$secondColor: #ccc;
+$thirdColor: #8260e5;
+$forthColor: #868686;
+$backColor: #222;
+$hoverColor: #333;
+body {
+  background-color: #181818;
+}
+.marketer {
+  background-image: url("../img/Digital_Marketer.jpg");
+  background-size: cover;
+  -webkit-box-shadow: -1px 4px 5px 0px rgba(166,164,166,1);
+  -moz-box-shadow: -1px 4px 5px 0px rgba(166,164,166,1);
+  box-shadow: -1px 4px 5px 0px rgba(166,164,166,1);
+  height: 65vh;
+  color: black;
+  &::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 65vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: linear-gradient(
+      -180deg,
+      rgba(0, 157, 165, 0.45) 0,
+      rgba(0, 138, 201, 0.2) 27%,
+      rgba(255, 255, 255, 0.3) 56%,
+      #fff 90%
+    );
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    height: 65vh;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+      42deg,
+      #fff 5%,
+      rgba(255, 255, 255, 0.7) 37%,
+      rgba(0, 139, 201, 0.45) 74%,
+      rgba(0, 157, 165, 0.5) 100%
+    );
+    z-index: 1;
+  }
+
+  .info {
+    position: relative;
+    z-index: 2;
+    padding: 20px 0;
+    line-height: 23px;
+    font-size: 17px;
+    a {
+      font-size: 14px;
+      text-decoration: none;
+      color: #000;
+    }
+    span {
+      font-weight: bold;
+    }
+    .btn {
+      margin: 20px 0;
+      font-weight: bold;
+    }
+  }
+  .options {
+    background-color: rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;
+    padding: 15px;
+    padding-top: 19px !important;
+    font-size: 15px;
+    width: 100%;
+    p {
+      span {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+
+
+
+.courses {
+  padding: 50px 0;
+
+  
+  border-left: 1px solid white;
+  padding-left: 30px;
+  .card {
+    background-color: #181818;
+    border: 0;
+    margin-bottom: 35px !important;
+  
+    img {
+      height: 100%;
+    }
+    .card-body {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .card-title {
+      color: $firstcolor;
+    }
+    .card-text {
+      color: $secondColor;
+      margin-bottom: 3px;
+      line-height: 1.3;
+      font-size: 15px;
+    }
+    &:hover {
+      background-color: #20202067;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+
+
+.experts {
+  background-color: $backColor;
+  padding-top: 50px;
+  -webkit-box-shadow: 0px -2px 5px 0px rgba(166,164,166,1);
+  -moz-box-shadow: 0px -2px 5px 0px rgba(166,164,166,1);
+  box-shadow: 0px -2px 5px 0px rgba(166,164,166,1);
+  h4 {
+    color: $firstcolor;
+    padding-bottom: 20px;
+  }
+  .owl-carousel {
+    .owl-nav {
+      button {
+        font-size: 40px;
+        color: $secondColor;
+        position: relative;
+        bottom: 228px;
+        left: 432px;
+      }
+    }
+    .owl-dots {
+      display: none;
+    }
+    .item{
+      img{
+        height: 100%;
+      }
+
+    }
+  }
+}
+
+
+.b-left{
+  border-left: 1px solid white;
+  padding-left: 50px
+}
