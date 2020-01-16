@@ -1,0 +1,352 @@
+$firstcolor: #fff;
+$secondColor: #ccc;
+$thirdColor: #8260e5;
+$forthColor: #868686;
+$borderColor: #555;
+$cardColor: #222222;
+$gradColor: linear-gradient(
+  to right,
+  #74277c 0%,
+  #8260e5 41%,
+  #346fc7 62%,
+  #346fc7 100%
+);
+$red-color: #ec3c2f;
+$blue-color: #041370;
+body {
+  background-color: #181818;
+  font-family: "Roboto", sans-serif;
+}
+// ========== HEAD ==========================
+.courses {
+  padding: 100px 0;
+  display: flex;
+  text-align: center;
+  color: $firstcolor;
+  background-image: url("../img/Group\ 1.png");
+  background-size: cover;
+  width: 100%;
+  a {
+    color: $firstcolor;
+    text-decoration: none;
+  }
+}
+// =========== CARASOUL COURSES =============
+.featured {
+  .main-nav {
+    padding: 30px 0;
+    color: $firstcolor;
+    .nav {
+      border-bottom: 0;
+      justify-content: center;
+    }
+    .nav-link {
+      background-color: transparent;
+      border: 0;
+      color: $firstcolor;
+      padding: 8px 5px;
+      margin-left: 8px;
+      font-size: 15px;
+      &.active {
+        color: $thirdColor;
+        border-bottom: 1px solid $thirdColor;
+      }
+    }
+  }
+  .tab-content {
+    .owl-carousel {
+      .owl-dots {
+        display: none;
+      }
+      .owl-nav {
+        display: flex;
+        position: relative;
+        button {
+          color: $firstcolor;
+          font-size: 35px;
+          &:hover,
+          &:active {
+            border-color: transparent;
+            background-color: transparent;
+          }
+        }
+        .owl-next {
+          position: absolute;
+          top: -200px;
+          right: -25px;
+          @media (max-width: 540px) {
+            right: -18px;
+          }
+        }
+        .owl-prev {
+          position: absolute;
+          top: -200px;
+          left: -25px;
+          @media (max-width: 540px) {
+            left: -18px;
+          }
+        }
+      }
+    }
+    .card {
+      background-color: $cardColor;
+      .card-head {
+        position: relative;
+        .relat {
+          position: absolute;
+          top: 20px;
+          padding: 0 10px;
+
+          .btn {
+            background-color: $thirdColor;
+            color: $firstcolor;
+            font-size: 12px;
+          }
+          span {
+            font-size: 16px;
+            position: absolute;
+            left: 230px;
+            @media (max-width: 1199px) {
+              left: 185px;
+            }
+            @media (max-width: 400px) {
+              left: 136px;
+            }
+          }
+        }
+        .icon {
+          position: absolute;
+          top: 20px;
+          padding: 0 10px;
+          left: 222px;
+          span {
+            font-size: 16px;
+          }
+          @media (max-width: 1199px) {
+            left: 177px;
+          }
+          @media (max-width: 400px) {
+            left: 126px;
+          }
+        }
+      }
+      .card-subtitle {
+        color: $forthColor;
+        font-size: 12px;
+      }
+      .card-title {
+        color: $firstcolor;
+        font-weight: 400;
+        font-size: 15px;
+      }
+      .rate {
+        padding-bottom: 10px;
+        span {
+          color: $forthColor;
+          position: relative;
+          bottom: 22px;
+          float: right;
+          font-size: 14px;
+        }
+      }
+      .card-text {
+        border-top: 1px solid $borderColor;
+        padding: 10px 0;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.description {
+  padding: 50px 0;
+
+  // ========== CHOISES =======================
+  .home {
+    color: $forthColor;
+    padding: 70px 0;
+    .software {
+      h5 {
+        color: $firstcolor;
+        margin-bottom: 20px;
+        margin-top: 15px;
+        font-size: 16px;
+      }
+      ul {
+        padding: 0;
+        list-style: none;
+      }
+      li {
+        margin-bottom: 5px;
+        font-size: 14px;
+      }
+      a {
+        margin: 100px 0;
+        color: $red-color;
+        font-size: 15px;
+      }
+      .custom-switch {
+        margin-bottom: 7px;
+      }
+    }
+    i {
+      font-size: 13px;
+    }
+  }
+  // ========== COURSES ========================
+  .info {
+    p {
+      color: $firstcolor;
+      line-height: 2;
+      font-size: 15px;
+    }
+    button {
+      color: $firstcolor;
+      background-color: $cardColor;
+      font-size: 15px;
+      @media (max-width: 768px) {
+        margin-bottom: 15px;
+        width: 100%;
+      }
+    }
+    input {
+      height: 34px;
+      font-size: 15px;
+    }
+    .search {
+      position: relative;
+      i {
+        position: absolute;
+        right: 13px;
+        top: -25px;
+        color: $forthColor;
+      }
+    }
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+  }
+  .card {
+    background-color: #181818;
+    border: 0;
+    margin: 35px 0 !important;
+    img {
+      height: 100%;
+    }
+    .card-body {
+      position: relative;
+      .card-title {
+        color: $firstcolor;
+        font-size: 17px;
+      }
+      .card-text {
+        color: $secondColor;
+        margin-bottom: 3px;
+        line-height: 1.3;
+        font-size: 14px;
+      }
+      .relat {
+        position: absolute;
+        top: 20px;
+        padding: 0 10px;
+        .btn {
+          background-color: $thirdColor;
+          color: $firstcolor;
+          font-size: 12px;
+          left: 280px;
+          position: relative;
+          @media (max-width: 484px) {
+            left: 225px;
+          }
+        }
+        span {
+          font-size: 16px;
+          position: relative;
+          right: 150px;
+          @media (max-width: 768px) {
+            left: 310px;
+            top: -270px;
+          }
+          @media (max-width: 484px) {
+            left: 175px;
+            top: -200px;
+          }
+        }
+      }
+      .icon {
+        position: absolute;
+        top: 20px;
+        padding: 0 10px;
+        left: -45px;
+        span {
+          font-size: 16px;
+        }
+        @media (max-width: 768px) {
+          left: 420px;
+          top: -250px;
+        }
+        @media (max-width: 400px) {
+          left: 285px;
+          top: -180px;
+        }
+      }
+    }
+    .footer {
+      position: relative;
+      .rate {
+        position: absolute;
+        display: inline-flex;
+        left: 300px;
+        top: -5px;
+        color: $forthColor;
+        font-size: 14px;
+        p {
+          color: $thirdColor;
+          font-weight: bold;
+        }
+        @media (max-width: 1199px) {
+          left: 200px;
+        }
+        @media (max-width: 991px) {
+          left: 120px;
+        }
+      }
+    }
+    &:hover {
+      background-color: #20202067;
+      cursor: pointer;
+    }
+  }
+  .pagin {
+    .page-item{
+      .page-link {
+      color: $secondColor;
+      background-color: transparent;
+      border-color: transparent ;  
+      border-radius: 25px;
+      margin: auto 5px;
+      &:active,
+      &:hover{
+        background-color: $thirdColor;
+        color: $firstcolor;
+        i{
+          color: $firstcolor;
+        }
+      }
+      i{
+        color: $thirdColor;
+        font-weight: 600;
+        font-size: 12px;
+      }
+    }
+      &:first-child,
+      &:last-child{
+        .page-link{
+          border-color: $borderColor;
+        }
+      }
+
+    }
+    
+  }
+}

@@ -10,17 +10,22 @@
   <link rel="stylesheet" href="./css/all.css">
   <link rel="stylesheet" href="./css/star-rating-svg.css">
   <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./sidebar/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
   <!-- =========== Begin navbar ============ -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-light ">
     <a class="navbar-brand" href="#"><img class="w-50" src="./images/zedny logo.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+   
+    <i class="fas fa-sun white mt-2 ml-2 fa-lg d-lg-none "></i>
+    <button class="btn z-outline  ml-3 d-lg-none lang-res ">EN</button>
+    <button class="navbar-toggler d-responsive-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
+    
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
@@ -30,8 +35,8 @@
         </li> -->
 
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle  z-outline nav-btn ml-3 " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+        <li class="nav-item dropdown d-responsive-none">
+          <a class="nav-link dropdown-toggle  white  nav-btn ml-3 " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <img class="cat-i" src="./images/5.svg" alt="">
             &nbsp;Categories
@@ -197,98 +202,177 @@
         </li>
 
 
-        <form class="form-inline my-2 my-lg-0 ml-3 ">
+        <form class="form-inline my-2 my-lg-0 ml-3 d-responsive-none">
           <input class="form-control mr-sm-2 form-cust" type="search" placeholder="What do you want to learn?"
             aria-label="Search">
         </form>
         <li class="nav-item">
-          <a class="nav-link white " href="#">Corporate</a>
+          <a class="nav-link white d-responsive-none" href="#">Corporate</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link white " href="#">Personal</a>
+          <a class="nav-link white d-responsive-none " href="#">Personal</a>
         </li>
-        <i class="fas fa-moon white mt-2 ml-2 fa-lg"></i>
+        <li class="nav-item" >
+            <a class="nav-link white d-responsive-none fa-lg " href="#"><i class="fas fa-sun fa-lg mt-1"></i></a>
+
+        </li>
       </ul>
       <ul class="list-unstyled">
-        <a class="btn white pt-3" href="./SignIn/index.html">Login</a>
-        <button class="btn z-outline mt-2  ">GET STARTED</button>
-        <button class="btn btn-info lang">EN</button>
+        <a class="btn white pt-3 d-responsive-none" href="./SignIn/index.html ">Login</a>
+        <a  class="btn z-outline mt-2 d-responsive-none " href="./Started/index.html">GET STARTED</a>
+        <button class="btn btn-outline-info z-outline mt-2  d-responsive-none ">EN</button>
+        
       </ul>
     </div>
   </nav>
   <!-- =========== End  navbar ============ -->
 
-  <!-- =========== begin carusal =========== -->
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="z-overlay">
-        </div>
-        <img src="./images/photo-of-a-woman-thinking-941555.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block ">
-          <button class="btn btn-primary bg-z1">FEATURED</button>
-          <button class="btn btn-primary bg-z3">UPDATE</button>
-          <h3 class="bold pt-4 pb-2">Microsoft Projects Tips Weekly</h3>
-          <div class="media">
-            <img src="./images/images.jpeg" class="mr-3 w-25 rounded-circle" alt="...">
-            <div class="media-body w-25 ">
-              <h2 class="mt-0 bold">Can Yaman</h3>
-                <h5>General Manger</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="z-overlay">
-        </div>
-        <img src="./images/man-in-black-holding-phone-618613.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block ">
-          <button class="btn btn-primary bg-z1">FEATURED</button>
-          <button class="btn btn-primary bg-z3">UPDATE</button>
-          <h3 class="bold pt-4 pb-2">Microsoft Projects Tips Weekly</h3>
-          <div class="media">
-            <img src="./images/images.jpeg" class="mr-3 w-25 rounded-circle" alt="...">
-            <div class="media-body w-25 ">
-              <h2 class="mt-0 bold">Can Yaman</h3>
-                <h5>General Manger</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <div class="z-overlay">
-        </div>
-        <img src="./images/woman-in-pink-dress-using-laptop-computer-1586973.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block ">
-          <button class="btn btn-primary bg-z1">FEATURED</button>
-          <button class="btn btn-primary bg-z3">UPDATE</button>
-          <h3 class="bold pt-4 pb-2">Microsoft Projects Tips Weekly</h3>
-          <div class="media">
-            <img src="./images//" class="mr-3 w-25 rounded-circle" alt="...">
-            <div class="media-body w-25 ">
-              <h2 class="mt-0 bold">Can Yaman</h3>
-                <h5>General Manger</h5>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-  <!-- =========== End carusal =========== -->
+  <!-- ====================== mobile navbar ================= -->
 
+
+
+
+
+
+  
+   
+  <div class="wrapper">
+      <nav id="sidebar" class="active">
+     
+          <i class="fas fa-times  "></i>
+        <ul class="list-unstyled components">
+   
+              
+        <ul class="list-unstyled CTAs ">
+         
+         
+
+
+            <li>
+              <a href="#" class="download">Login</a>
+            </li>
+            <li>
+                <a href="#" class="download">Login</a>
+              </li>
+         
+       
+  
+          
+  
+          </ul>
+          <li class="active">
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+            <ul class="collapse list-unstyled" id="homeSubmenu">
+              <li>
+                <a href="#">home1</a>
+              </li>
+              <li>
+                <a href="#">home2</a>
+              </li>
+              <li>
+                <a href="#">home3</a>
+              </li>
+            </ul> 
+          </li>
+          
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Page</a>
+            <ul class="collapse list-unstyled" id="pageSubmenu">
+              <li>
+                <a href="#">page1</a>
+              </li>
+              <li>
+                <a href="#">page2</a>
+              </li>
+              <li>
+                <a href="#">page3</a>
+              </li>
+            </ul> 
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+    
+        
+      </nav>
+      <button type="button" id="sidebarCollapse" class="btn z-outline btn-res">
+          <i class="fa fa-align-justify white"></i> 
+        </button>
+        
+      
+   
+     
+
+     
+      </div>
+      
+    </div>
+    
+      
+   
+    
+ 
+
+
+
+
+
+<!-- ================= end mobile navbar ============ -->
+
+
+
+
+
+
+
+
+<!-- =================== header section -video ================== -->
+
+<div class="header">
+  <div class="overlay">
+
+      <div class="form-group course-search">
+          <h2 class=" ">Find Your Course Now ! </h2>
+          <h5 class="white">Searching for Courses & Books ? Zedny will helps you ! 
+            </h5>
+            <div class="search-input">
+                <input type="text" class="form-control mt-3 " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search courses & Books ( Ex: Bill Gates )">
+
+
+                <i class="fas fa-search"></i>
+                <button class="btn btn-info">Search</button>
+
+            </div>
+        </div>
+
+
+    
+  </div>
+
+  <video autoplay muted loop>
+    
+
+    <source src="./images/stock-footage-young-multi-ethnical-graduates-in-caps-laughing-out-loud-and-having-fun-on-their-graduation-day.webm">
+  </video>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- =================== header section -video ================== -->
 
 
 <!-- ================ mobile - header search ======== -->
@@ -340,7 +424,8 @@
             <h2 class="z2 py-5 bold ml-2">Top Courses</h2>
           </div>
           <div class="col-md-4">
-            <button class="btn z-outline mt-5 f-14 ml-8 v-more">View More</button>
+            <a class="btn z-outline mt-5 f-14 ml-8 v-more" href="./Courses/index.html">View More</a>
+           
           </div>
         </div>
         <img class="under-line" src="./images/line-purple.png" alt="">
@@ -373,7 +458,7 @@
               <p class="card-text gray my-2 f-14"> Lorem ipsum dolor sit amet </p>
               <div class="my-rating mr-3"></div>
               <h6 class="rate">4.0 (19.883)</h6>
-              <a href="#" class="btn btn-light ml-7 mt-3 py-0 pt-2 r-more">Read More</a>
+              <a href="./single-course/index.html" class="btn btn-light ml-7 mt-3 py-0 pt-2 r-more">Read More</a>
             </div>
           </div>
         </div>
@@ -393,7 +478,7 @@
               <p class="card-text gray my-2 f-14 "> Lorem ipsum dolor sit amet </p>
               <div class="my-rating mr-3"></div>
               <h6 class="rate">4.0 (19.883)</h6>
-              <a href="#" class="btn btn-light ml-7 mt-3 py-0 pt-2 r-more">Read More</a>
+              <a href="./single-course/index.html" class="btn btn-light ml-7 mt-3 py-0 pt-2 r-more">Read More</a>
             </div>
           </div>
         </div>
@@ -412,7 +497,7 @@
               <p class="card-text gray my-2 f-14"> Lorem ipsum dolor sit amet </p>
               <div class="my-rating mr-3"></div>
               <h6 class="rate">4.0 (19.883)</h6>
-              <a href="#" class="btn btn-light ml-7 mt-3 py-0 pt-2 r-more">Read More</a>
+              <a href="./single-course/index.html" class="btn btn-light ml-7 mt-3 py-0 pt-2 r-more">Read More</a>
             </div>
           </div>
         </div>
@@ -431,7 +516,7 @@
               <p class="card-text gray my-2 f-14 "> Lorem ipsum dolor sit amet </p>
               <div class="my-rating mr-3"></div>
               <h6 class="rate">4.0 (19.883)</h6>
-              <a href="#" class="btn btn-light ml-7 mt-3 py-0 pt-2 r-more">Read More</a>
+              <a href="./single-course/index.html" class="btn btn-light ml-7 mt-3 py-0 pt-2 r-more">Read More</a>
             </div>
           </div>
         </div>
@@ -782,5 +867,14 @@
       }
     })
   </script>
+
+<script>
+    $(document).ready(function(){
+    $('#sidebarCollapse').on('click',function(){
+      $('#sidebar').toggleClass('active');
+    });
+  });  
+</script>
+  
 </body>
 </html>

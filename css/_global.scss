@@ -118,6 +118,10 @@ html{
     .navbar-brand{
        margin-right: -100px !important
     }
+
+    .nav-link{
+        font-size: 15px;
+    }
     .nav-btn{
         border-radius: 7px;
         padding: 6px 27px !important;
@@ -144,10 +148,14 @@ html{
     }
     .cat-i{
         width: 18px !important;
+        &::after{
+           display: none;
+        }
     }
     .fa-moon{
         margin-top: 10px !important; 
-        cursor: pointer
+        cursor: pointer;
+        
     }
 
 
@@ -201,39 +209,136 @@ html{
   
       
         }
+
+        
+
     }  
 
+
+@media(max-width:991px){
+
+  .navbar-brand{
+margin-left: 100px;
+    }
+    .fa-sun{
+        margin-top: -1px !important;
+        margin-left: 1rem !important;
+        position: absolute;
+        right: 20%;
+    }
+
+    .lang-res{
+       
+    }
+
+
 }
-// ========== carusal ===========
-.carousel{
 
-        @media(max-width:991px){
-         display: none;
-        }
+.dropdown-menu {
+    position: absolute;
+    z-index: 9999999999999 !important;
+}
 
-    .carousel-caption{
-        text-align: left !important;
-        bottom: 30% !important;
-        .media{
-            img{
-                width: 70px !important;
+
+
+
+.dropdown-toggle{
+    &:after{
+        display: none !important;
+    }
+    
+}
+
+}
+
+
+
+
+
+
+// ========== mobile navbar ========
+
+
+@media (max-width:991px){
+    .d-responsive-none {
+        display: none !important;
+    }
+}
+
+
+
+
+
+
+
+// ========== header ===========
+
+
+
+
+
+
+.header{
+    padding: 0;
+    margin: px;
+    position: relative;
+    
+    video{
+        width:100%;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(129, 96, 229, 0.637), #169bc7a2);
+        .course-search{
+            position: absolute;
+            z-index: 999999;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 70%;
+            input{
+                height: 75px;
+                padding-left: 70px;
+            }
+            h2{
+                font-size: 40px;
+                color: white;
+                font-weight: bold;
             }
         }
     }
-    .carousel-item{
+
+    @media(max-width:991px){
+        display: none;
+    }
+
+    .search-input{
         position: relative;
-        img{
-            max-height: 700px;
-        }
-        .z-overlay{
+      
+
+        i{
             position: absolute;
-            width: 100%;
-            height: 100%;
-            background: rgb(22,154,199);
-            background: linear-gradient(0deg, rgba(22, 155, 199, 0.5) 0%, rgba(129, 96, 229, 0.582) 50%);
+            top: 30%;
+            left: 2%;
+            font-size: 30px;
+            color: $z1_color;
+        }
+
+        button{
+            position: absolute;
+            right: 3%;
+            top: 25%
         }
     }
 }
+
+
+
+
 
 
 
@@ -678,9 +783,11 @@ position: relative;
         width: 100px;
     }
     .r-more{
-        margin-left: 4rem !important;
+        margin-left: 9rem !important;
         font-size: 10px !important;
         padding-top: 0 !important;
+
+
     }
 
     .rate{
@@ -732,6 +839,13 @@ position: relative;
             
         }
 
+        .r-more{
+            margin-left: 4rem !important;
+            font-size: 10px !important;
+            padding-top: 0 !important;
+    
+            
+        }
 
        }
 
@@ -781,6 +895,7 @@ box-shadow: 5px 6px 15px -5px rgba(0,0,0,0.75);
         width: 110px;
     }
 
+  
 
 
 }
@@ -898,11 +1013,11 @@ box-shadow: 5px 6px 15px -5px rgba(0,0,0,0.75);
     }
 
     h6{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     a{
-        font-size: 10px;
+        font-size: 12px;
         
     }
 }

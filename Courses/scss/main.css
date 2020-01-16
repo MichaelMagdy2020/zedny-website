@@ -1,0 +1,419 @@
+body {
+  background-color: #181818;
+  font-family: "Roboto", sans-serif;
+}
+
+.courses {
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  background-image: url("../img/Group 1.png");
+  background-size: cover;
+  width: 100%;
+}
+
+.courses a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.featured .main-nav {
+  padding: 30px 0;
+  color: #fff;
+}
+
+.featured .main-nav .nav {
+  border-bottom: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.featured .main-nav .nav-link {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  padding: 8px 5px;
+  margin-left: 8px;
+  font-size: 15px;
+}
+
+.featured .main-nav .nav-link.active {
+  color: #8260e5;
+  border-bottom: 1px solid #8260e5;
+}
+
+.featured .tab-content .owl-carousel .owl-dots {
+  display: none;
+}
+
+.featured .tab-content .owl-carousel .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.featured .tab-content .owl-carousel .owl-nav button {
+  color: #fff;
+  font-size: 35px;
+}
+
+.featured .tab-content .owl-carousel .owl-nav button:hover, .featured .tab-content .owl-carousel .owl-nav button:active {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.featured .tab-content .owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  top: -200px;
+  right: -25px;
+}
+
+@media (max-width: 540px) {
+  .featured .tab-content .owl-carousel .owl-nav .owl-next {
+    right: -18px;
+  }
+}
+
+.featured .tab-content .owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  top: -200px;
+  left: -25px;
+}
+
+@media (max-width: 540px) {
+  .featured .tab-content .owl-carousel .owl-nav .owl-prev {
+    left: -18px;
+  }
+}
+
+.featured .tab-content .card {
+  background-color: #222222;
+}
+
+.featured .tab-content .card .card-head {
+  position: relative;
+}
+
+.featured .tab-content .card .card-head .relat {
+  position: absolute;
+  top: 20px;
+  padding: 0 10px;
+}
+
+.featured .tab-content .card .card-head .relat .btn {
+  background-color: #8260e5;
+  color: #fff;
+  font-size: 12px;
+}
+
+.featured .tab-content .card .card-head .relat span {
+  font-size: 16px;
+  position: absolute;
+  left: 230px;
+}
+
+@media (max-width: 1199px) {
+  .featured .tab-content .card .card-head .relat span {
+    left: 185px;
+  }
+}
+
+@media (max-width: 400px) {
+  .featured .tab-content .card .card-head .relat span {
+    left: 136px;
+  }
+}
+
+.featured .tab-content .card .card-head .icon {
+  position: absolute;
+  top: 20px;
+  padding: 0 10px;
+  left: 222px;
+}
+
+.featured .tab-content .card .card-head .icon span {
+  font-size: 16px;
+}
+
+@media (max-width: 1199px) {
+  .featured .tab-content .card .card-head .icon {
+    left: 177px;
+  }
+}
+
+@media (max-width: 400px) {
+  .featured .tab-content .card .card-head .icon {
+    left: 126px;
+  }
+}
+
+.featured .tab-content .card .card-subtitle {
+  color: #868686;
+  font-size: 12px;
+}
+
+.featured .tab-content .card .card-title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.featured .tab-content .card .rate {
+  padding-bottom: 10px;
+}
+
+.featured .tab-content .card .rate span {
+  color: #868686;
+  position: relative;
+  bottom: 22px;
+  float: right;
+  font-size: 14px;
+}
+
+.featured .tab-content .card .card-text {
+  border-top: 1px solid #555;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.description {
+  padding: 50px 0;
+}
+
+.description .home {
+  color: #868686;
+  padding: 70px 0;
+}
+
+.description .home .software h5 {
+  color: #fff;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.description .home .software ul {
+  padding: 0;
+  list-style: none;
+}
+
+.description .home .software li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.description .home .software a {
+  margin: 100px 0;
+  color: #ec3c2f;
+  font-size: 15px;
+}
+
+.description .home .software .custom-switch {
+  margin-bottom: 7px;
+}
+
+.description .home i {
+  font-size: 13px;
+}
+
+.description .info p {
+  color: #fff;
+  line-height: 2;
+  font-size: 15px;
+}
+
+.description .info button {
+  color: #fff;
+  background-color: #222222;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .description .info button {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+}
+
+.description .info input {
+  height: 34px;
+  font-size: 15px;
+}
+
+.description .info .search {
+  position: relative;
+}
+
+.description .info .search i {
+  position: absolute;
+  right: 13px;
+  top: -25px;
+  color: #868686;
+}
+
+@media (max-width: 768px) {
+  .description .info {
+    text-align: center;
+  }
+}
+
+.description .card {
+  background-color: #181818;
+  border: 0;
+  margin: 35px 0 !important;
+}
+
+.description .card img {
+  height: 100%;
+}
+
+.description .card .card-body {
+  position: relative;
+}
+
+.description .card .card-body .card-title {
+  color: #fff;
+  font-size: 17px;
+}
+
+.description .card .card-body .card-text {
+  color: #ccc;
+  margin-bottom: 3px;
+  line-height: 1.3;
+  font-size: 14px;
+}
+
+.description .card .card-body .relat {
+  position: absolute;
+  top: 20px;
+  padding: 0 10px;
+}
+
+.description .card .card-body .relat .btn {
+  background-color: #8260e5;
+  color: #fff;
+  font-size: 12px;
+  left: 280px;
+  position: relative;
+}
+
+@media (max-width: 484px) {
+  .description .card .card-body .relat .btn {
+    left: 225px;
+  }
+}
+
+.description .card .card-body .relat span {
+  font-size: 16px;
+  position: relative;
+  right: 150px;
+}
+
+@media (max-width: 768px) {
+  .description .card .card-body .relat span {
+    left: 310px;
+    top: -270px;
+  }
+}
+
+@media (max-width: 484px) {
+  .description .card .card-body .relat span {
+    left: 175px;
+    top: -200px;
+  }
+}
+
+.description .card .card-body .icon {
+  position: absolute;
+  top: 20px;
+  padding: 0 10px;
+  left: -45px;
+}
+
+.description .card .card-body .icon span {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .description .card .card-body .icon {
+    left: 420px;
+    top: -250px;
+  }
+}
+
+@media (max-width: 400px) {
+  .description .card .card-body .icon {
+    left: 285px;
+    top: -180px;
+  }
+}
+
+.description .card .footer {
+  position: relative;
+}
+
+.description .card .footer .rate {
+  position: absolute;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  left: 300px;
+  top: -5px;
+  color: #868686;
+  font-size: 14px;
+}
+
+.description .card .footer .rate p {
+  color: #8260e5;
+  font-weight: bold;
+}
+
+@media (max-width: 1199px) {
+  .description .card .footer .rate {
+    left: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .description .card .footer .rate {
+    left: 120px;
+  }
+}
+
+.description .card:hover {
+  background-color: #20202067;
+  cursor: pointer;
+}
+
+.description .pagin .page-item .page-link {
+  color: #ccc;
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 25px;
+  margin: auto 5px;
+}
+
+.description .pagin .page-item .page-link:active, .description .pagin .page-item .page-link:hover {
+  background-color: #8260e5;
+  color: #fff;
+}
+
+.description .pagin .page-item .page-link:active i, .description .pagin .page-item .page-link:hover i {
+  color: #fff;
+}
+
+.description .pagin .page-item .page-link i {
+  color: #8260e5;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.description .pagin .page-item:first-child .page-link, .description .pagin .page-item:last-child .page-link {
+  border-color: #555;
+}
+/*# sourceMappingURL=main.css.map */

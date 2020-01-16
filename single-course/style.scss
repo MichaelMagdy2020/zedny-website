@@ -1,0 +1,855 @@
+$primary-color1:#181818;
+$primary-color2:#fff;
+$primary-color3:rgb(130,96,229);
+$z1_color:#8260E5;
+$z2_color:#169ac7;
+$z3_color:#08045c;
+$z4_color:#346FC9;
+$primary-color4:#aaa;
+$primary-color5:#222;
+
+
+body{
+    background-color: $primary-color1;
+   
+    
+        .container-fluid{
+            
+            @media(max-width:991px){   
+            margin: auto;
+            }
+            .head{
+                // @media(max-width:991px){
+                    
+                //     height: 190px;
+
+                //   }
+                background-image: url(images/Group2.png);
+                background-size: cover;
+                // background-position: center;
+                .data{
+                    margin-top: 7%;
+                    // @media(max-width:991px){
+                    
+                    //     margin-left: -215px;
+                    //     /* margin-top: 11px; */
+                    //     padding-top: 10px;
+    
+                    // //   }
+                    // padding-top: 80px;
+                    // padding-left: 240px;
+                    .ins-img{
+                        // background:$primary-color5;
+                        width: 32px;
+                        border-radius: 50%;
+                        // margin-right: 15px;
+                        @media(max-width:991px){}
+
+                    }
+                    .instructor{
+                        color:$primary-color2;
+                        font-size: 14px;
+                        font-weight: 400;
+                        margin-top: 8px;
+                    //     @media(max-width:991px){
+                    //         font-size: 9px;
+                    //     }
+                    // 
+                }
+                    .last-update{
+                        color:$primary-color2;
+                        font-size: 14px;
+                        padding-top: 7px;
+                        margin-left: 35px;
+                        // margin-left: 30px;
+                        // margin-top: 9px;
+                        // @media(max-width:991px){
+                        //     margin-left: 16px;
+                        //     margin-top: 6px;
+                        // }
+                    }
+                    
+                }
+                h2{
+                    font-size: 25px;
+                    // padding-left: 230px;
+                    // padding-top: 12px;
+                    color: $primary-color2;
+                    // @media(max-width:991px){
+                    // padding-left: 23px;
+                    // font-size: 14px;
+                    // }
+                }
+                .ratting{
+                    display: flex;
+                    // margin-bottom: -11px;
+                    // @media(max-width:991px){
+                    // margin-left: -207px;
+                    // }
+                    .best-seller{
+                        margin-bottom: 15px;
+                        font-size: 12px;
+                        color:$primary-color2;
+                        background: red;
+                        
+                        padding-right: -27px;
+                        // margin-left: 0p;
+                        // margin-bottom: 16px;
+                        // margin-right: -25px;
+
+                        padding: 2px 5px;
+                        border-radius: 3px;
+                        // @media(max-width:991px){
+                        //     font-size: 8px;
+                        //     margin-bottom: 22px;
+                        //     }
+                        
+                    }
+                    .stars{
+                        display: flex;
+                        list-style: none;
+                        // @media(max-width:991px){
+                        // margin-top: -7px;
+                        // margin-left: -9px;
+                        // }
+                    
+                        li{
+                            i{
+                                color: #b7b70d;
+                                font-size: 13px;
+                                margin-right: 4px;
+                                @media(max-width:991px){
+                                    font-size: 8px;
+                                    margin-right: 2px;
+                                    
+                                    }
+                            }
+                        }
+                    }
+                    span{
+                        font-size: 14px;
+                        // margin-top: 2px;
+                        // margin-left: 10px;
+                        color: $primary-color2;
+                        // @media(max-width:991px){
+                        // font-size: 9px;
+                        // margin-top: 1px;
+                        // }
+                    
+                    }
+            }
+            .style-responseve{
+                // margin-left:230px;
+                // padding-bottom: 100px;
+                // @media(max-width:991px){
+                // margin-left: 25px;
+                // padding-bottom: 0px;
+            }
+            span{
+                i{
+                    margin-right: 5px;
+                }
+                        
+                        margin-left: 10px;
+                        color: $primary-color2;
+                        
+                       font-size: 12px;
+                       @media(max-width:991px){
+                        font-size: 9px;
+                        margin-top: 1px;
+                        }    
+            }
+        }
+        .share{
+            // margin-top: -87px;
+            // margin-left: 606px;
+            padding-bottom: 25px;
+            padding-top: 180px;
+            @media(max-width:991px){
+            padding-top:15px;
+            }
+
+        .heart{
+            color:$primary-color2;
+            // margin-top: 10px;
+            // margin-left: 384px;
+            // @media(max-width:991px){
+
+            // margin-left: 17px;
+            // margin-top: 6px;
+            // }
+        
+        }
+        .wishlist{
+            // margin-right: 20px;
+            color:$primary-color2;
+            // margin-top: 5px;
+            // margin-left: 20px;
+            // @media(max-width:991px){
+            //     margin-left: 3px;
+            //     margin-top: 4px;
+            //     margin-top: 6px;
+            //     font-size:10px
+
+            // }
+        }
+        button{
+            color:$primary-color2;
+            height: 27px;
+            border-radius: 5px;
+            padding-top: -3px;
+            padding-top: 0px;
+            border: none;
+            // margin-top: 5px;
+            background-color: $primary-color3;
+//             @media(max-width:991px){
+//                 margin-left: 75%;
+// font-size: 10px;
+// height: 18px;
+//             }
+        }
+    }
+            }
+
+            .container{
+                .vedio{
+                    @media(max-width:991px){   
+                    margin-top:25px;
+                }
+                    box-shadow: 0 0 5px #3d3c3e;
+                    background: $primary-color5;
+                    height: 360px;
+                    justify-content: baseline;
+                    justify-content: center;
+                    text-align: center;
+                    padding-top: 148px;
+                    margin-top: 50px;
+                    span{
+                        font-size: 12px;
+                        color: $primary-color2;
+                    }
+                    i{
+                        font-size: 35px;
+                        color: $primary-color2;
+                    }
+                }
+                // .nav{
+                //     margin-top: 35px;
+                //     margin-bottom: 100px;
+                //     .nav-link{
+                //         padding-top: 4px;
+                //         width: 155px;
+                //         height: 33px;
+                //         color: $primary-color2;
+                //         text-align: center;
+                //         margin-bottom: 20px;
+                        
+
+                //         }
+                //         .active{
+                //             background-color: $primary-color3;
+
+                //         }
+                    
+                //     }
+                // .tab-pane{
+                    .content{
+                        
+                        padding-top: 40px;
+                        h2{
+                            font-size: 23px;
+                            color: $primary-color3;
+                        }
+                        h3{
+                            font-size: 18px;
+                            margin-top: 20px;
+                            font-weight: 400;
+                            color: $primary-color2;
+                            margin-bottom: 30px;
+                            color: $z2_color;
+                        }
+                        p{
+                            font-size: 14px;
+                            margin-bottom: 20px;
+                            color:$primary-color4;
+                        }
+                        .learn{
+                            list-style: none;
+                            padding-left: 0px;
+
+                        }
+                        ul{
+                            
+                            padding-left: 20px;
+                            li{
+                                color:$primary-color4;
+                                font-size: 14px;
+                                margin-bottom: 20px;
+
+                                
+
+                            }
+                        }
+                    }
+                    .course-content{
+                        
+                        padding-top: 40px;
+                        .titl{
+                            margin-bottom: 25px;
+                        h2{
+                            font-size: 23px;
+                            color: $z1_color;
+                            // margin-right: 276px;
+                        }
+                        span{
+                            font-size: 16px;
+                            color: $z1_color;
+                            // margin-left: 115px;
+                        }
+                    }
+                    .card{
+                        margin-bottom: 20px;
+                        .card-header{
+                            height: 50px;
+                            
+                            h2{
+                                button{
+                                    color: $primary-color5;
+                                    margin-top: -17px;
+                                    width:100%;
+                                    
+                                }
+                            }
+                        }
+                        .card-body{
+                            ul{
+                                list-style: none;
+                                li{
+                                    border-bottom: 1px solid #dcd8d8;
+                                    margin-bottom: 7px;
+                                
+                                    display: flex;
+                                    font-size: 12px;
+                                    h2{
+                                       font-size: 17px;
+                                       margin-left: 15px;
+                                       /* margin-bottom: 4px; */
+                                       margin-top: -2px;
+
+                                    }
+                                    i{
+                                        margin-right: 6px;
+                                        margin-top: 3px;
+                                    }
+                                    span{
+                                        color:#5a5757;
+                                    }
+                                    .preview{
+                                        margin-left: 105px;
+                                    }
+                                    .time{
+                                        margin-left: 158px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    }
+                    .about-instructor{
+
+                        h2{
+                          
+                                font-size: 23px;
+                                color: $z1_color;
+                                margin-right: 276px;
+                                margin-top: 50px;
+                                margin-bottom: 50px;
+                                @media(max-width:991px){
+                                    margin-right: 0px;
+                                }
+
+                            
+                        }
+                        .imge{
+                            // background-color:$primary-color5;
+                            height: 132px;
+                            border-radius: 50%;
+                            margin-top: -20px;
+
+                        }
+                        .row{
+                        .stars{
+                            display: flex;
+                            list-style: none;
+                            padding-left: 0px;
+                            li{
+                                i{
+                                    color: #b7b70d;
+                                    font-size: 13px;
+                                    margin-right: 4px;
+                                    
+                                }
+                            }
+                        }
+                        span{
+                            color: $primary-color4;
+                            margin-left: 20px;
+                            font-size: 13px;
+                            margin-top: 4px;
+                            i{
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                    h3{
+                        font-size: 20px;
+                        color: $z2_color;
+                        margin-bottom: 0px;
+                        @media(max-width:991px){
+                            margin-top: 10px;
+                        }
+
+                    }
+                    h4{
+                        font-size: 11px;
+                        color: $primary-color4;
+                    }
+                    p{
+                        color: white;
+                        font-size: 14px;
+                        margin-top: 30px
+                    }
+                    h5{
+                        color: white;
+                        font-size: 14px;
+                    }
+                    ol{
+                        li{
+                            color: white;
+                            font-size: 14px;
+                        }
+                    }
+                    }
+                    .student-feedback{
+                        @media(max-width:991px){
+                            text-align: center;
+                        }
+                        h2{
+                          
+                            font-size: 23px;
+                            color: $z1_color;
+                            margin-right: 276px;
+                            margin-top: 50px;
+                            margin-bottom: 50px;
+                            @media(max-width:991px){
+                                margin-right: 0px;
+                            }
+                        
+                    }
+                    ul{
+                        list-style-type: none;
+                        li{
+                            display: flex;
+                            margin-bottom: 20px;
+                            span{
+                                margin-right: 27px;
+                                color: $primary-color4;
+                            }
+                            .progress{
+                                width: 400px;
+                                margin-right: 20px;
+                                height: 10px;
+                                margin-top: 7px;
+
+
+                                
+                                .progress-bar{
+                                    background: $z2_color;
+                                }
+                            
+
+                            }
+
+                        }
+                    }
+                    .course_rting{
+                        
+                        background:$primary-color5;
+                       h6{
+                           color:$primary-color4;
+                        font-size: 60px;
+                       
+                        padding-top: 20px;
+                        padding-left: 45px;
+                    }
+                    h3{
+                        color:$primary-color4;
+                        font-size: 13px;
+                        margin-left: 46px;
+                        /* margin-bottom: 13px; */
+                        padding-bottom: 45px;
+                    }
+                        .stars{
+                            margin-left: 43px;
+                            display: flex;
+                            list-style: none;
+                            padding-left: 0px;
+                            margin-bottom: 0px;
+                            li{
+                                i{
+                                    color: #b7b70d;
+                                    font-size: 13px;
+                                    margin-right: 4px;
+                                    
+                                }
+                            }
+                        }
+
+                    }
+                    }
+                    .reviews{
+                        h2{
+                          
+                            font-size: 23px;
+                            color: $z1_color;
+                            margin-right: 276px;
+                            margin-top: 50px;
+                            margin-bottom: 50px;
+                            @media(max-width:991px){
+                                margin-right: 0px;
+                            }
+                        
+                    }
+                        .review{
+                            border-bottom: 1px solid #565252;
+                            padding-bottom: 50px;
+                            padding-top: 20px;
+                        
+                    .imge{
+                        // background-color:$primary-color5;
+                        height: 132px;
+                        border-radius: 50%;
+                       
+                    }  
+                    
+                    .stars{
+                            display: flex;
+                            list-style: none;
+                            padding-left: 0px;
+                            li{
+                                i{
+                                    color: #b7b70d;
+                                    font-size: 13px;
+                                    margin-right: 4px;
+                                    
+                                }
+                            }
+                        
+                    }
+                    .revewier_name{
+                        font-size: 20px;
+                        color: $z2_color;
+                       
+                    }
+                    h4{
+                        font-size: 11px;
+                        color: $primary-color4;
+                    }
+                    p{
+                        color: white;
+                        font-size: 14px;
+                        margin-top: 30px;
+                        @media(max-width:991px){
+                        width: 90%;
+                        margin: auto;
+                    }
+                    }
+                    .replay{
+                        color: white;
+                        padding-top: 34px;
+                        padding-left: 164px;
+                        span{
+                            margin-left: 5px;
+                        }
+                        i{
+                            margin-right: 5px;
+                        }
+                    
+                    }
+                    .likes{
+                        background:$primary-color5;
+                        
+                        height: 50px;
+                        /* justify-content: center; */
+                        margin-top: 20px;
+                        // margin-left: 139px;
+                        border-radius: 10px;
+                        color: white;
+                        padding-top: 15px;
+                        padding-left: 60px;
+                        span{
+                            margin-left: 5px;
+                        }
+                        .likes_num{
+                            color: red;
+                        }
+
+                    }
+                }
+                .more-review{
+                    margin-top: 20px;
+                    background: none;
+                    color:$z2_color;
+                    padding: 8px 40px;
+                    border: 1px solid $z2_color;
+                    border-radius: 30px;
+                    margin-left: 302px;
+                    @media(max-width:991px){
+                    
+                        margin-left:65px;
+                    }
+                }
+            }
+            .add_rev{
+                h2{
+                          
+                    font-size: 23px;
+                    color: $z1_color;
+                    margin-right: 276px;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                    @media(max-width:991px){
+                        margin-right: 0px;
+                    }
+                
+            }
+            h3{
+                font-size: 20px;
+                color: $z2_color;
+                margin-bottom: 0px;
+                margin-right: 20px;
+            }
+            .stars{
+                display: flex;
+                list-style: none;
+                padding-left: 0px;
+                li{
+                    i{
+                        color: #b7b70d;
+                        font-size: 13px;
+                        margin-right: 4px;
+                        
+                    }
+                }
+            }
+            span{color: white;
+                font-size: 18px;}
+                input{
+                    width: 100%;
+                    
+                    border-radius: 7px;
+                    border: none;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    background: rgb(46, 45, 45);
+
+
+                }
+                .r_title{
+                    height: 50px;
+                }
+                .r_content{
+                   
+                    height: 250px;
+                  
+
+                }
+                button{
+                    margin-top: 20px;
+                    background: $z2_color;
+                    color:white;
+                    padding: 8px 40px;
+                    border: none;
+                    border-radius: 3px;
+                    // margin-left: 302px;
+                }
+            }
+                    
+                    
+
+
+                // }
+                .related_courses{
+
+                   
+                    margin-bottom: 50px;
+                    
+                    h2{
+                    color: $primary-color2;
+                    margin-top: 25px;
+                    margin-bottom: 30px;
+                    font-size: 25px;
+                    margin-left: 20px;
+                    @media(max-width:991px){
+                        margin-right: 0px;
+                    }
+
+                    }
+                    .all-card{
+                       
+                        @media(max-width:991px){
+                            margin-bottom: 20px;
+                            margin-left: 10%;
+
+                          }
+                    .card{
+                        box-shadow: 0 0 5px #95949a;
+                        .img{
+                            height: 160px;
+                            background-color: $primary-color5;
+                            
+                            .best-seller{
+                               
+                                font-size: 12px;
+                                color:$primary-color2;
+                                font-size: 12px;
+                                color: #fff;
+                                background: #ca3306;
+                                border-radius: 3px;
+                                margin-top: 10px;
+                                margin-left: 10px;
+                                margin-right: 150px;
+                                text-align: center;
+                                padding: 2px 3px;
+                                
+                                border-radius: 3px;
+                                
+                            }
+                            .heart{
+                                color: $primary-color2;
+                                margin-top:10px;
+                            }
+                            span{
+                                color: white;
+                               
+                                margin-left: 83px;
+                            }
+                        }
+                        .card-body{
+                            .inst-name{
+                            color: $primary-color4;
+                            font-size: 10px;
+                            margin-top: 0px;
+                            margin-bottom: 4px;
+                            }
+                            .card-text{
+                                font-weight: bold;
+                                width: 90%;
+                                margin-bottom: 0px;
+                            }
+                        
+                        }
+                    }
+                    .stars{
+                        display: flex;
+                        list-style: none;
+                        padding-left: 0px;
+                        li{
+                            i{
+                                color: #b7b70d;
+                                font-size: 13px;
+                                margin-right: 4px;
+                                
+                            }
+                        }
+                    }
+                    span{
+                        font-size: 12px;
+                        margin-right: 15px;
+                        i{
+                            margin-right: 10px;
+                        }
+                    }
+                    .price{
+                        color: red;
+                        font-weight: bolder;
+                        margin-left: 39px;
+                        margin-top: 6px;
+                    
+                    }
+                }
+                }
+                .course-feature{
+                    box-shadow: 3px 3px 5px 1px #2a2a2b;
+                    background:$primary-color5;
+                    position: absolute;
+                    margin-top: 50px;
+                    width: 267px;
+                    padding: 20px;
+                    opacity: 0.9;
+                    hr{
+                        margin-top: 3px;
+                        margin-bottom: 3px;
+                    background-color: #6b6666;}
+                    h2{
+                        font-size: 20px;
+                        color: $primary-color2;
+                    }
+                    .colomn{
+                        @media(max-width:991px){
+                           
+                            width: 50%;
+                        }
+                    .name{
+                        font-weight: bold;
+                        font-size: 16px;
+                        color: $primary-color4;
+                    }
+                    .value{
+                        font-size: 14px;
+                        color: $primary-color4;
+                        
+                        // margin-left: 147px;
+                    
+                    }
+                }
+                
+                    @media(max-width:991px){
+                        margin-top: 18px;
+                        width: 92%;
+                    }
+                }
+                .tags{
+                    @media(max-width:991px){
+                        margin-top: 296px;
+                        width: 100%;
+                    }
+                    box-shadow: 5px 4px 8px 1px #2a2a2b;
+                    background-color: $primary-color5;
+                    margin-top: 315px;
+                    padding: 20px;
+                    width: 266px;
+                    opacity: 0.9;
+                    h2{
+                        font-size: 20px;
+                        margin-bottom: 20px;
+                        color: $primary-color2;
+                        
+                    }
+                    .item{
+                        background:$z2_color;
+                        padding: 6px 20px;
+                        border-radius: 15px;
+                        margin-right: 5px;
+                        color:$primary-color2;
+                        
+
+                    }
+                }
+                }
+            }
+
+        
+    
+  
+
